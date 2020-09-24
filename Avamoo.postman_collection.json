@@ -1,0 +1,41 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Avamoo",
+		"_postman_id": "7ab75535-b559-c4f3-021e-da113e7d6063",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SearchTheDoc-Api",
+			"request": {
+				"url": {
+					"raw": "http://localhost:7000/searchTheDoc?word=rules",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"searchTheDoc"
+					],
+					"query": [
+						{
+							"key": "word",
+							"value": "rules",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
